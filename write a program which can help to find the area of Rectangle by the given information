@@ -10,7 +10,7 @@ int main () {
 
     printf("enter the side width of ractangle : \n ");
     scanf("%d", &width );
-    printf("area of square is : %d", length*width );
+    printf("area of rectangle is : %d", length*width );
 
     return 0;
 }
