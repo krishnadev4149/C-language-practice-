@@ -1,0 +1,14 @@
+/* write a program which can help to find the Circumference of Circle by the given information */
+
+# include <stdio.h>
+
+int main () {
+    int radius;
+
+    printf("enter the radius of circle : \n ");
+    scanf("%d", &radius );
+
+    printf("Circumference of Circle is : %f", 3.14159265359*2*radius );
+
+    return 0;
+}
