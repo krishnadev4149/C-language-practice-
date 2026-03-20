@@ -1,0 +1,16 @@
+/* write a program which can help to calculate the Temperature Converter from Celsius to Fahrenheit by the given information */
+
+# include <stdio.h>
+
+int main () {
+    float celsius,fahrenheit;
+
+    printf("enter the temperature ( IN CELSIUS) :");
+    scanf("%f", &celsius );
+
+    fahrenheit = (celsius*1.5)+32 ;
+    printf("the fahrenheit temperature will be : %f", fahrenheit);
+    
+
+    return 0;
+}
