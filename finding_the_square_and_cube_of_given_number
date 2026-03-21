@@ -1,0 +1,17 @@
+/* write a program which can help to calculate the square and cude or the given number */
+
+# include <stdio.h>
+# include <math.h>
+
+int main () {
+  
+    float A;
+
+    printf("enter then number A :\n");
+    scanf("%f", &A);
+
+    printf("the square of the given number is : %f ", pow(A,2));
+    printf("the cude of the given number is : %f ", pow(A,3) );
+
+    return 0;
+}
