@@ -17,10 +17,10 @@ int main () {
     scanf("%d", &c);
 
     if (a > b) {
-        printf(" a is greater then b ");
+        printf(" a is greater then all ");
     }
     else if (b > c) {
-        printf("b is greater then c ");
+        printf("b is greater then all ");
     }
     
     else {
