@@ -1,0 +1,31 @@
+/* write a program which can help to find the greater number which is given by the user */
+
+# include <stdio.h>
+# include <math.h>
+
+int main () {
+     
+    int a,b,c;
+    
+    printf("enter the number a : ");
+    scanf("%d", &a);
+
+    printf("enter the number b : ");
+    scanf("%d", &b);
+
+    printf("enter the number c : ");
+    scanf("%d", &c);
+
+    if (a > b) {
+        printf(" a is greater then b ");
+    }
+    else if (b > c) {
+        printf("b is greater then c ");
+    }
+    
+    else {
+        printf(" c is greater then all ");
+    }
+
+    return 0;
+}
