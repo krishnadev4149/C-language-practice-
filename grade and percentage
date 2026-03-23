@@ -1,0 +1,49 @@
+/* write a program which can help to determine the grade & percentage which is given by the user in 5 subject numbers */
+
+# include <stdio.h>
+# include <math.h>  
+
+    int main () {
+     
+   float A,B,C,D,E,F,X;
+   printf("(A) MATH MARKS  :");
+   scanf("%f", &A);
+
+   printf("(B) EVS MARKS :");
+   scanf("%f", &B);
+
+   printf("(C) SCIENCE MARKS :");
+   scanf("%f", &C);
+   
+   printf("(D) ENGLISH MARKS :");
+   scanf("%f", &D);
+   
+   printf("(E) HINDI MARKS :");
+   scanf("%f", &E);
+   
+   printf("(X) TOTAL MARKS :");
+   scanf("%f", &X);
+   
+   F = ((A+B+C+D+E)/X)*100;
+   
+   printf("TOTAL PERCENTAGE WILL BE : %.1f \n", F);
+
+   if (F >= 90) {
+        printf("1st grade");
+   }
+    else if (F >= 70) {
+        printf("2nd grade");
+    
+    }
+    else if (F >= 50) {
+        printf("3rd grade");
+    } 
+    else if (F >= 33) {
+        printf("4th grade");
+    }
+    else {
+        printf("fail");
+    }
+    
+    return 0;
+}
