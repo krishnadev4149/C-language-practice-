@@ -1,0 +1,80 @@
+// write a program which can help to calculat the the value of inputs values with different arithmetic operations 
+
+#include <stdio.h>
+#include <math.h>
+
+int main () {
+
+    int A,B,option;
+    double V,W;
+
+    printf("enter the number A : ");
+    scanf("%d", &A);
+
+    printf("enter the number B : ");
+    scanf("%d", &B);
+
+    printf("enter which option you want \n");
+    printf("1. SUM\n");
+    printf("2. DIFFERENCE A-B\n");
+    printf("3. DIFFERENCE B-A\n");
+    printf("4. MULTIPLICATION\n");
+    printf("5. DIVISION A/B\n");
+    printf("6. DIVISION B/A\n");
+    printf("7. REMAINDER OF A/B\n");
+    printf("8. REMAINDER OF B/A\n");
+    printf("9. A^B\n");
+    printf("10. B^A\n");
+
+    scanf("%d", &option);
+
+    switch(option) {
+
+        case 1:
+            printf("Result = %d", A+B);
+            break;
+
+        case 2:
+            printf("Result = %d", A-B);
+            break;
+
+        case 3:
+            printf("Result = %d", B-A);
+            break;
+
+        case 4:
+            printf("Result = %d", A*B);
+            break;
+
+        case 5:
+            printf("Result = %d", A/B);
+            break;
+
+        case 6:
+            printf("Result = %d", B/A);
+            break;
+
+        case 7:
+            printf("Result = %d", A%B);
+            break;
+
+        case 8:
+            printf("Result = %d", B%A);
+            break;            
+
+        case 9:
+            V = pow(A,B);
+            printf("Result = %.2lf", V);
+            break;
+
+        case 10:
+            W = pow(B,A);
+            printf("Result = %.2lf", W);
+            break;
+
+        default:
+            printf("Invalid choice");
+    }
+
+    return 0;
+}
