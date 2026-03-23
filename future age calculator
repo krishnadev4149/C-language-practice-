@@ -1,0 +1,22 @@
+/* write a program which can help to determine the future age which user need */
+
+# include <stdio.h>
+# include <math.h>  
+
+    int main () {
+
+        int age,year;
+
+        printf("enter the current time age of user :");
+        scanf("%d", &age);
+
+        printf("enter the number of years after which the next birth will take place (in year): ");
+        scanf("%d", &year);
+
+        age = age+year;
+
+        printf("the future age will be : %d", age);
+
+        return 0;
+     
+   }
