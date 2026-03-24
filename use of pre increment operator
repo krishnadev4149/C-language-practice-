@@ -1,4 +1,4 @@
-// write a program which can help check the natural number // 
+// write a program which use pre increment operator // 
 // pre increment operator //
 
 #include <stdio.h>
