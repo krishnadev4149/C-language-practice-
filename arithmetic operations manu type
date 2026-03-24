@@ -1,0 +1,69 @@
+// i write a program which can calculat waya option //
+#include <stdio.h>
+#include <math.h>
+
+int main () {
+
+    int A,B,option;
+    double V,W;
+
+    printf("enter the number A : ");
+    scanf("%d", &A);
+
+    printf("enter the number B : ");
+    scanf("%d", &B);
+
+    printf("enter which option you want \n");
+    printf("1. SUM\n");
+    printf("2. DIFFERENCE\n");
+    printf("3. MULTIPLICATION\n");
+    printf("4. DIVISION A/B\n");
+    printf("5. DIVISION B/A\n");
+    printf("6. REMAINDER\n");
+    printf("7. A^B\n");
+    printf("8. B^A\n");
+
+    scanf("%d", &option);
+
+    switch(option) {
+
+        case 1:
+            printf("Result = %d", A+B);
+            break;
+
+        case 2:
+            printf("Result = %d", A-B);
+            break;
+
+        case 3:
+            printf("Result = %d", A*B);
+            break;
+
+        case 4:
+            printf("Result = %d", A/B);
+            break;
+
+        case 5:
+            printf("Result = %d", B/A);
+            break;
+
+        case 6:
+            printf("Result = %d", A%B);
+            break;
+
+        case 7:
+            V = pow(A,B);
+            printf("Result = %.2lf", V);
+            break;
+
+        case 8:
+            W = pow(B,A);
+            printf("Result = %.2lf", W);
+            break;
+
+        default:
+            printf("Invalid choice");
+    }
+
+    return 0;
+}
