@@ -1,0 +1,11 @@
+// write a program which use pre decrement operator // 
+// pre decrement operator //
+
+#include <stdio.h>
+#include <math.h>
+int main() {
+    for (float i = 10.000000 ; i >= 0 ;i-=0.000001) {
+    printf("%f \n", i);
+}
+    return 0;
+}
