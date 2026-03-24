@@ -1,0 +1,16 @@
+// write a program which can help to age stage // 
+
+#include <stdio.h>
+#include <math.h>
+
+int main () {
+
+    int age;
+
+    printf("enter age : ");
+    scanf("%d", &age),
+
+    age > 0 && age < 18 ? printf("kid") : printf("adult");
+
+    return 0;
+}
