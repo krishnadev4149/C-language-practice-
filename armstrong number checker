@@ -1,0 +1,27 @@
+// write a program which can help check the armstrong number // 
+
+#include <stdio.h>
+#include <math.h>
+int main() {
+    int num, original, remainder;
+    int result = 0;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    original = num;
+
+    while (num != 0) {
+        remainder = num % 10;          // last digit
+        result += pow(remainder,3);  // cube
+        num /= 10;                    // remove last digit
+    }
+
+    if (result == original) {
+        printf("Armstrong Number");
+    } else {
+        printf("Not an Armstrong Number");
+    }
+
+    return 0;
+}
