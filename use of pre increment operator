@@ -1,0 +1,11 @@
+// write a program which can help check the natural number // 
+// pre increment operator //
+
+#include <stdio.h>
+#include <math.h>
+int main() {
+    for (float i = 0.000000 ; i <= 10 ;i+=0.000001) {
+    printf("%f \n", i);
+}
+    return 0;
+}
