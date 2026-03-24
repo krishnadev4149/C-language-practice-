@@ -1,0 +1,18 @@
+// write a program which can help check the natural number // 
+
+#include <stdio.h>
+#include <math.h>
+int main() {
+    int num;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num > 0) {
+        printf("Natural Number");
+    } else {
+        printf("Not a natural Number");
+    }
+
+    return 0;
+}
