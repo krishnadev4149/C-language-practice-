@@ -1,0 +1,10 @@
+// write a program which use post increment operator // 
+// post increment operator //
+#include <stdio.h>
+#include <math.h>
+int main() {
+    for (float i = 0.000000 ; i <= 10 ;++i) {
+    printf("%f \n", i);
+}
+    return 0;
+}
