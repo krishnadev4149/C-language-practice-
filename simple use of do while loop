@@ -1,0 +1,18 @@
+// simple use of do while loop //
+
+#include<stdio.h>
+#include<math.h>
+
+int main () {
+    int n;
+    int i=1;
+    printf("enter the number :\n");
+    scanf("%d", &n);
+
+   do {
+    printf("i want %d ice-cream \n", i);
+    i++;
+   } while (i<=n);
+
+    return 0;
+}
