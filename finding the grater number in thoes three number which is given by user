@@ -16,7 +16,7 @@ int main () {
     printf("enter the number c : ");
     scanf("%d", &c);
 
-    if (a > b) {
+    if (a > b && a > c) {
         printf(" a is greater then all ");
     }
     else if (b > c) {
